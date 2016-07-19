@@ -1,4 +1,5 @@
 html {
+    font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     height: 100%;
 }
@@ -8,7 +9,6 @@ html a {
 }
 
 .body-wrapper {
-    background: green;
     margin: 0;
 }
 
@@ -17,7 +17,7 @@ html a {
 }
 
 .nav-wrapper {
-    background: red;
+    background: #035E7B;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -30,19 +30,17 @@ html a {
     padding: 1em;
     font-size: 20px;
     font-weight: 100;
+    color: white;
 }
 
 .header-wrapper {
-    background: lightblue;
     height: 40px;
 }
 
 .main-wrapper {
-    background: purple;
     height: 300px;
 }
 
 .footer-wrapper {
-    background: yellow;
     height: 50px;
 }
